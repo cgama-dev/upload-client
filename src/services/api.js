@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://upload-api-pqisivofra.now.sh"
+  baseURL: "http://52.23.248.100:5000"
 });
 
 export default api;
